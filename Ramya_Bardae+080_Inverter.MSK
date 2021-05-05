@@ -1,0 +1,30 @@
+VERSION 04-05-2021 04:47:11 PM
+FIG #C:\Users\THE ONE\Desktop\Microwind 3.1 Full\Microwind 3.1 Full\rules\Ramya_Bardae+080_Inverter.MSK
+BB(2,-18,63,54)
+SIMU #2.00
+REC(2,17,61,36,NW)
+REC(35,27,15,20,DP)
+REC(14,27,16,20,DP)
+REC(35,-13,15,18,DN)
+REC(15,-13,15,18,DN)
+REC(20,39,2,2,CO)
+REC(21,-4,2,2,CO)
+REC(41,-5,2,2,CO)
+REC(41,38,2,2,CO)
+REC(30,-18,5,72,PO)
+REC(40,-6,4,47,ME)
+REC(20,-5,4,4,ME)
+REC(19,38,4,4,ME)
+REC(30,27,5,20,DP)
+REC(30,-13,5,18,DN)
+TITLE 22 -3  #Vss
+$0 1000 0 
+TITLE 21 40  #Vdd
+$T 2500 0 
+TITLE 5 45  #Vdd
+$T 2500 0 
+TITLE 32 9  #INPUT
+$c 1000 0 0.0450 0.0500 0.0950 0.1000 
+TITLE 42 8  #OUTPUT
+$v 1000 0 
+FFIG C:\Users\THE ONE\Desktop\Microwind 3.1 Full\Microwind 3.1 Full\rules\Ramya_Bardae+080_Inverter.MSK
